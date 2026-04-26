@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-semibold">ВязаниеПро</h3>
+            <h3 className="text-2xl font-semibold">Студия «Вязаный слон»</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               PDF-описания и курсы по вязанию для всех уровней — создаём вместе с 2020 года
             </p>
@@ -123,7 +123,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>2025 ВязаниеПро. Все права защищены.</p>
+          <p>2025 Студия «Вязаный слон». Все права защищены.</p>
         </div>
       </div>
     </footer>
