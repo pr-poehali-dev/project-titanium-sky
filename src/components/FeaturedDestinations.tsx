@@ -6,7 +6,7 @@ const categories = [
   {
     name: "Свитеры и джемперы",
     level: "Все уровни",
-    image: "https://cdn.poehali.dev/projects/436467cc-2b6f-41b2-b029-4507efebff53/files/cf42f19a-39d4-4267-9e01-ad137bc8f738.jpg",
+    image: "https://cdn.poehali.dev/projects/436467cc-2b6f-41b2-b029-4507efebff53/files/1e262f65-a9dc-4359-b53e-af0ed9865c59.jpg",
     description: "Подробные PDF-схемы с пошаговыми инструкциями на любой вкус",
     price: "от 350 ₽",
   },
