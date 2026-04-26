@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
+import { Facebook, Instagram, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
@@ -7,9 +7,9 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-semibold">Horizon Voyages</h3>
+            <h3 className="text-2xl font-semibold">ВязаниеПро</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Создаём незабываемые путешествия по всему миру с 2010 года
+              PDF-описания и курсы по вязанию для всех уровней — создаём вместе с 2020 года
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -19,73 +19,70 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
           </div>
 
-          {/* Destinations */}
+          {/* Categories */}
           <div>
-            <h4 className="font-semibold mb-4">Направления</h4>
+            <h4 className="font-semibold mb-4">Категории</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Европа
+                  Свитеры и джемперы
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Азия
+                  Шапки и шарфы
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Африка
+                  Игрушки амигуруми
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Америка
+                  Носки и варежки
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Океания
+                  Сумки и аксессуары
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Courses */}
           <div>
-            <h4 className="font-semibold mb-4">Компания</h4>
+            <h4 className="font-semibold mb-4">Курсы</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  О нас
+                  Для начинающих
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Вакансии
+                  Средний уровень
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Пресса
+                  Продвинутый
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Блог
+                  Крючок
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Партнёры
+                  Спицы
                 </a>
               </li>
             </ul>
@@ -93,11 +90,11 @@ export function Footer() {
 
           {/* Support */}
           <div>
-            <h4 className="font-semibold mb-4">Поддержка</h4>
+            <h4 className="font-semibold mb-4">Помощь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Центр помощи
+                  Частые вопросы
                 </a>
               </li>
               <li>
@@ -117,7 +114,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Правила отмены
+                  Возврат средств
                 </a>
               </li>
             </ul>
@@ -126,7 +123,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>2025 Horizon Voyages. Все права защищены.</p>
+          <p>2025 ВязаниеПро. Все права защищены.</p>
         </div>
       </div>
     </footer>

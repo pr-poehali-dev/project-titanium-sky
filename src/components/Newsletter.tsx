@@ -19,10 +19,10 @@ export function Newsletter() {
         <div className="space-y-8">
           <div className="space-y-4">
             <h2 className="text-4xl md:text-5xl font-light tracking-tight text-balance">
-              Будьте <span className="font-semibold">в курсе</span>
+              Получайте <span className="font-semibold">новые схемы</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
-              Подпишитесь на рассылку и получайте эксклюзивные предложения, гиды по направлениям и советы от экспертов
+              Подпишитесь на рассылку и получайте бесплатные PDF-описания, советы по вязанию и скидки на новые курсы
             </p>
           </div>
 

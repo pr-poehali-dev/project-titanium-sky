@@ -1,37 +1,37 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Calendar, Users, Star } from "lucide-react"
+import { BookOpen, FileText, Star } from "lucide-react"
 
 const packages = [
   {
-    title: "Гранд-тур по Европе",
-    duration: "14 дней",
-    groupSize: "12-16 человек",
+    title: "Старт: Вязание с нуля",
+    duration: "8 уроков",
+    format: "Видео + PDF",
     rating: "4.9",
-    reviews: "234",
-    image: "/european-cities-paris-eiffel-tower-romantic.jpg",
-    highlights: ["Париж", "Рим", "Барселона", "Амстердам"],
-    price: "429 900 ₽",
+    reviews: "312",
+    image: "https://cdn.poehali.dev/projects/436467cc-2b6f-41b2-b029-4507efebff53/files/5a716246-091d-461c-ac44-d50cf048ab41.jpg",
+    highlights: ["Основные петли", "Инструменты", "Первое изделие", "Разбор ошибок"],
+    price: "1 490 ₽",
   },
   {
-    title: "Азиатское приключение",
-    duration: "10 дней",
-    groupSize: "8-12 человек",
+    title: "Базовый курс вязания спицами",
+    duration: "15 уроков",
+    format: "Видео + PDF + чат",
     rating: "4.8",
-    reviews: "189",
-    image: "/asian-temples-thailand-bangkok-golden-temple.jpg",
-    highlights: ["Бангкок", "Сингапур", "Бали", "Куала-Лумпур"],
-    price: "349 900 ₽",
+    reviews: "215",
+    image: "https://cdn.poehali.dev/projects/436467cc-2b6f-41b2-b029-4507efebff53/files/59c36b12-7380-4b3d-bb4e-a6564ec40bc3.jpg",
+    highlights: ["Узоры и рисунки", "Убавки и прибавки", "Расчёт петель", "Свитер на финал"],
+    price: "2 990 ₽",
   },
   {
-    title: "Сафари-экспедиция",
-    duration: "7 дней",
-    groupSize: "6-10 человек",
+    title: "Продвинутый курс: Авторские модели",
+    duration: "20 уроков",
+    format: "Видео + PDF + обратная связь",
     rating: "5.0",
-    reviews: "156",
-    image: "/african-safari-wildlife-elephants-sunset.jpg",
-    highlights: ["Серенгети", "Масаи Мара", "Нгоронгоро", "Амбосели"],
-    price: "599 900 ₽",
+    reviews: "98",
+    image: "https://cdn.poehali.dev/projects/436467cc-2b6f-41b2-b029-4507efebff53/files/cf42f19a-39d4-4267-9e01-ad137bc8f738.jpg",
+    highlights: ["Сложные узоры", "Кардиган оверсайз", "Авторский стиль", "Разработка схем"],
+    price: "4 990 ₽",
   },
 ]
 
@@ -42,10 +42,10 @@ export function PopularPackages() {
         {/* Section Header */}
         <div className="max-w-3xl mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Популярные <span className="font-semibold">туры</span>
+            Популярные <span className="font-semibold">курсы</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Тщательно подобранные туры, объединяющие лучшие направления и впечатления
+            Обучающие программы для любого уровня — от первой петли до авторских изделий
           </p>
         </div>
 
@@ -81,12 +81,12 @@ export function PopularPackages() {
                   {/* Meta Info */}
                   <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                     <div className="flex items-center gap-1.5">
-                      <Calendar className="h-4 w-4" />
+                      <BookOpen className="h-4 w-4" />
                       <span>{pkg.duration}</span>
                     </div>
                     <div className="flex items-center gap-1.5">
-                      <Users className="h-4 w-4" />
-                      <span>{pkg.groupSize}</span>
+                      <FileText className="h-4 w-4" />
+                      <span>{pkg.format}</span>
                     </div>
                   </div>
 
@@ -103,11 +103,11 @@ export function PopularPackages() {
                 {/* Price & CTA */}
                 <div className="flex items-center justify-between pt-6 border-t border-border">
                   <div>
-                    <div className="text-xs text-muted-foreground mb-1">Цена от</div>
+                    <div className="text-xs text-muted-foreground mb-1">Цена</div>
                     <div className="text-2xl font-semibold text-primary">{pkg.price}</div>
                   </div>
                   <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-                    Забронировать
+                    Купить курс
                   </Button>
                 </div>
               </div>
